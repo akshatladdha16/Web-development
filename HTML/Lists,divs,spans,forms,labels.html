@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <h2>Lists</h2>
+    <ul>
+        <li>apples</li>
+        <li>oranges</li>
+        <li>watermelon</li>
+    </ul>
+    <ol type="i">
+        <!-- by defaults its 1,2,3 in ordered list  -->
+        <li>apples</li>
+        <li>oranges</li>
+        <li>watermelon</li>
+    </ol>
+
+    <!-- description lists  -->
+    <!-- really useful when you want to describe something in the list  -->
+    <dl>
+        <dt>Apples</dt>
+        <dd>- they are red in color</dd>
+    </dl>
+
+    <h2>TABLES</h2>
+    <table>
+        <tr>
+            <thead>
+                <th>Num1</th>
+                <th>Num2</th>
+                <th>Num3</th>
+            </thead>
+        </tr>
+        <caption><h2>List of numbers</h2></caption>
+        <!-- heading of table goes in caption  -->
+        <tbody>
+        <tr>
+            <td colspan="2">one</td>
+            <!-- colspan : one element can take more than 1 column space  -->
+            <td>two</td>
+            <td>three</td>
+        </tr> <!--defines one row tr of the table with 3 columns which is shown by td-->
+        <tr>
+            <!-- code for 2nd row  -->
+            <td>first</td>
+            <td>second</td>
+            <td>third</td>
+        </tr> 
+        </tbody>
+    </table>
+
+    <!-- Div is a block element : it will take whole area in the line  -->
+    <!-- while link is inline element take only space that's required  -->
+    <h2>Input</h2>
+    <input type="text"  placeholder="your name">
+    <!-- or in place of placeholder you can write value(but vlaue doesn't work for password) -->
+    <input type="password" placeholder="Enter your password">
+    <textarea name="" id="" cols="50" rows="10">Tell me something about yourself</textarea>
+    <!-- Input types: -->
+    <!-- Date , email , Range , File upload area  -->
+    <p>Your gender? </p>
+    <input type="radio" id="gender" name="checkone">
+    <label for="gender">Male</label><br>
+    <input type="radio" id="gender" name="checkone" value="Female">
+    <label for="gender">FeMale</label><br>
+  <!-- see how br is used to change the format IMP  -->
+
+  <h2>FORM</h2>
+  <!-- forms are the wrapper for bunch of user inputs we want on our website  -->
+  <form action="">
+      <!-- all the input tags and label tags will come under forms that will go to our bcakend system -->
+  </form>
+
+</body>
+</html>

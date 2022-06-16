@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grids</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- to look good on multiple devices on just on desktop-->
+
+    <!-- split entire screen in 12 columns and can choose any combination of columns be it 
+    6*2 , 4*3 etc or 8+4 -->
+
+    <style>
+        .boxy{
+            background-color: lightblue;
+            border: 2px solid black;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <!-- grid system works under class row  -->
+            <div class="boxy col-lg-4">COL Large 4</div>
+            <div class="boxy col-lg-4">COL Large 4</div>
+            <div class="boxy col-lg-4">COL Large 4</div>
+        </div>
+        <div class="row">
+            <!-- grid system works under class row  -->
+            <div class="boxy col-md-6">COL medium 6</div>
+            <div class="boxy col-md-6">COL medium 6</div>
+        </div>
+        <div class="row">
+            <!-- grid system works under class row  -->
+            <div class="boxy col-xs-6">COL xs 6</div>
+            <div class="boxy col-xs-6">COL xs 6</div>
+            <!-- xs doesn't get affected by screen sizes -->
+        </div>
+        
+
+        <h1>How to keep them intact</h1>
+        <!-- how to keep them in tact  -->
+        <div class="row">
+            <div class="boxy col-lg-3 col-sm-6">ONE</div>
+            <div class="boxy col-lg-3 col-sm-6">TWO</div>
+            <div class="boxy col-lg-3 col-sm-6">THREE</div>
+            <div class="boxy col-lg-3 col-sm-6">FOUR</div>
+            <!-- means now if screen size is large each of them will take 3 area and as size decrease each take 6  -->
+        </div>
+            <h1>nesting of boxes to get more variable screen adjustments </h1>
+            <!-- nesting of row calls to make it beyond 12 units  -->
+            <div class="row">
+                <div class="col-lg-6 boxy">
+                    <div class="row">
+                        <div class="col-lg-6 boxy">Nest 1</div>
+                        <div class="col-lg-6 boxy">Nest 2</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 boxy">TOP LEVEL</div>  
+            </div>
+    </div>
+
+
+</body>
+</html>

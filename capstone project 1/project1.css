@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: #00004d;
+    color: white;
+    border-left: 50px solid lightblue;
+    border-right: 50px solid lightblue;
+    border-bottom: 50px solid lightblue;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin: 30px;
+}
+#p1{
+    margin: 40px;
+    padding: 40px;
+}
+#p2{
+    margin: 40px,40px,20px,40px;
+    padding-bottom: 10px; 
+}
+#fname{
+    border-radius: 2px;
+    border: 4px lightblue solid;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#lname{
+    border-radius: 2px;
+    border: 4px lightblue solid;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#email{
+    border-radius: 2px;
+    border: 4px lightblue solid;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#signup{
+    background-color: orange;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 11px;
+    /* this is to center the table  */
+}
+#first{
+    margin: auto;
+    background-color: #C2DED1;
+    width: 120px;
+    height: 250px;
+    border-radius: 10px;
+}
+#second{
+    margin: auto;
+    background-color: #ECE5C7;
+    width: 120px;
+    height: 250px;
+    border-radius: 10px;
+}
+#third{
+    margin: auto;
+    background-color: #CDC2AE;
+    width: 120px;
+    height: 250px;
+    border-radius: 10px;
+}
+#fourth{
+    margin: auto;
+    background-color: #354259;
+    width: 120px;
+    height: 250px;
+    border-radius: 10px;
+}

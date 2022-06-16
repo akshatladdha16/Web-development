@@ -1,0 +1,47 @@
+h1{
+    color: greenyellow;
+    background-color: rgb(138, 5, 5);
+}
+li{
+    /* using hex code  */
+    color: darkred; 
+    /* using rgb color code  */
+    /* color: (rgb(0, 255, 255);  */
+    /* rbga last a is alpha which is btw 0 and 1 0 for fully trasparent and 1 for fully opaque  */
+}
+body{
+    background-color: gray;
+    background-image: url(rogov-nvhRiaIoZVc-unsplash.jpg);
+}
+div{
+    background-color: lightgray;
+    border-color: lightpink;
+    border-width: 5px;
+    border-style: double;
+}
+span{
+    background-color: gray;
+}
+/* for classes we use . and for id's we use #  */
+.firstdiv{
+    border-color: blue;
+    background-color: lightblue;
+}
+.seconddiv{
+    background-color: pink;
+    border-color: red;
+}
+#singledout{
+    text-decoration: underline;
+    color: green;
+}
+h3 + ul{
+    /* so this means any unordered list next to h3 will get this properties  */
+    border: 4px double pink;
+}
+li a{
+    color: red;
+}
+/* and if there are multiple links and if you want to edit them seperately then do this li a[link_of_website]  */
+
+

@@ -1,0 +1,52 @@
+li{
+    color: red;
+}
+.topitems{
+    color: blue;
+}
+#two{
+    background-color: lightgray;
+}
+/* so priority order is id>class>normal tags  */
+body{
+    background-color: lightblue;
+}
+#head{
+    color: black;
+    border-style:solid ;
+}
+#headintro{
+    background-color: lightyellow;
+}
+#intro{
+    color: pink;
+}
+#firstli{
+    color: darkred;
+    text-decoration: overline;
+}
+#linkli{
+    color: blue;
+}
+#intro2{
+    color: pink;
+}
+#email{
+     border-color: red;
+}
+#pass{
+border-color: red;
+}
+#login{
+    border-color: red;
+}
+.feedback{
+    border-color: yellow;
+    border-style: dashed;
+    border-width: 5px
+    ;
+    background-color: darkblue;
+}
+#question{
+    background-color: yellow;
+}

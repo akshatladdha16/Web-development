@@ -1,0 +1,31 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    font-size: 1em;
+    text-align: center;
+}
+p{
+    font-size: 2em;
+    /* browser default is 16px which is 1em 
+    so 2em is 32px*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+#font2{
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    /* this is the font we copied from googlefonts  */
+}
+#top{
+    border: 2px solid pink;
+    padding: 15px;
+    margin: 50px;
+    /* or you can mention margins like margin: top,right,bottom,left  */
+}
+#bottom{
+    border: 4px dashed red;
+    padding: 20px;
+    margin: auto;
+}
